@@ -131,6 +131,7 @@ texlive-txfonts
 texlive-tex-gyre
 texlive-ucharclasses
 texlive-lastpage
+tuned
 pdf-tools
 alacritty
 mupdf
