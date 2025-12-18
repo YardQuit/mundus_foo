@@ -1,4 +1,4 @@
----
+#tar---
 name: Build container image
 on:
   pull_request:
@@ -61,7 +61,7 @@ jobs:
         # See: https://github.com/ublue-os/container-storage-action/pull/11
         continue-on-error: true 
         with:
-          target-dir: /var/lib/containers
+          # target-dir: /var/lib/containers
           mount-opts: compress-force=zstd:2
 
       - name: Get current date
